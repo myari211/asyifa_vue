@@ -5,13 +5,15 @@ window.Vue = require('vue');
 import VueRouter from 'vue-router';
 import VueAxios from 'vue-axios';
 import Axios from 'axios';
+import Vuesax from 'vuesax';
+Vue.use(VueRouter, VueAxios, Axios, Vuesax);
 
-Vue.use(VueRouter, VueAxios, Axios);
 
 import App from './components/App.vue';
 import Create from './components/Create.vue';
 import Read from './components/Read.vue';
 import Update from './components/Update.vue';
+
 
 const routes = [
     {

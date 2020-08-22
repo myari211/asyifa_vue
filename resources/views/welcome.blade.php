@@ -8,14 +8,13 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link href="{{ asset('css/app.css') }}" type="text/css" rel="stylesheet">
-        
-        <script src="{{ asset('js/app.js') }}" type="text/javascript" defer></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <script src="{{ asset('js/app.js') }}" defer></script>
 
         <!-- Styles -->
     </head>
     <body>
-        <div id="app">
-        </div>
-    </body>
+        <div id="app"></div>
+   </body>
 </html>
